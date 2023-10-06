@@ -1,0 +1,44 @@
+.bgimg{
+    background-image: url(/assets/bathroombg.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    height: 400px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    padding-top:11rem;
+    color: #fff;
+}
+.tit{
+    font-size:4.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+p{
+    font-size: 1.8rem;
+    padding-top: 15px;
+    line-height: 1.5;
+    font-style: italic;
+}
+.title2{
+    color: #ae8f21;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nb{
+    color: #101010;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.29;
+    margin-left: 70px;
+}
+.pc{
+    margin-top: -45px;
+    margin-left: 4rem;
+    color: #fff;
+}
+h3{
+    text-decoration: none;
+}

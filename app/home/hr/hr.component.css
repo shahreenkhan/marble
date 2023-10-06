@@ -1,0 +1,67 @@
+.bgimg{
+    background-image: url(/assets/hr.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    height: 500px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    padding-top:11rem;
+    color: black;
+}
+.tit{
+    font-size:4.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.facebook,
+.twitter,
+.youtube,
+.instagram{
+  display: inline-block;
+  margin: 15px;
+  transition: 1s;
+  border-radius:5px;
+  font-size: 6rem;
+
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-youtube,
+.bi-instagram{
+  padding: 15px;
+  width: 80px;
+  text-align: center;
+  color: white;
+}
+
+.youtube:hover,
+.facebook:hover,
+.twitter:hover,
+.instagram:hover{
+  transform: scale(1.1, 1.1);
+  transform: rotate(360deg);
+}
+
+
+/*Colors*/
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #5EA9DD;
+}
+
+.youtube {
+  background-color: #E62117;
+}
+
+.instagram {
+  background: linear-gradient(60deg, #F9C556, #F97621, #EA484C, #D72F78, #A93AB5, #5B62D1);
+}
